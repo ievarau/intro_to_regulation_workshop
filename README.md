@@ -14,6 +14,10 @@ Slides for the complete presentation. Everything in this workshop should occupy 
 
 For an exercise in this workshop we ask students to analyse several peak files using online tools.
 
+### Exersice ###
+
+A `.pdf` document with output of exercise - dscovered motifs, known motifs, a bit of biology on analysed data.
+
 ### Genome browser session example ###
 
 IGV genome browser session is available together with its accompanying data from CUT&RUN publicly available data from [Kaya-Okur HS et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31036827/).
@@ -24,5 +28,5 @@ In case you have any questions related to this repository, please contact the fo
 
 |  Name                                                     | E-mail                          |
 | ----------------------------------------------------------|---------------------------------|
-| [Ieva Rauluseviciute](ievarau.github.io)                  | ieva.rauluseviciute@ncmm.uio.no |
+| [Ieva Rauluseviciute](https://ievarau.github.io)                  | ieva.rauluseviciute@ncmm.uio.no |
 | [Jaime A. Castro Mondragon](https://jaimicore.github.io/) | jacmondragon@nykode.com         |
