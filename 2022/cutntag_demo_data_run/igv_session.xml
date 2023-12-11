@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" locus="All" version="8">
+    <Resources>
+        <Resource path="sample_peaks/MACS_from-bedpe_K4m3-demo_n1.narrowPeak" type="narrowpeak"/>
+        <Resource path="sample_peaks/MACS_from-bedpe_K4m3-demo_n2.narrowPeak" type="narrowpeak"/>
+        <Resource path="bedgraph/K4m3-demo_n2.bedgraph" type="bedgraph"/>
+        <Resource path="bedgraph/CTCF-paper_n1.bedgraph" type="bedgraph"/>
+        <Resource path="sample_peaks/MACS_from-bedpe_K27m3-demo_n1.narrowPeak" type="narrowpeak"/>
+        <Resource path="bedgraph/IgG-demo_n2.bedgraph" type="bedgraph"/>
+        <Resource path="sample_peaks/MACS_from-bedpe_K27m3-demo_n2.narrowPeak" type="narrowpeak"/>
+        <Resource path="bedgraph/K27m3-demo_n2.bedgraph" type="bedgraph"/>
+        <Resource path="sample_peaks/MACS_from-bedpe_CTCF-paper_n1.narrowPeak" type="narrowpeak"/>
+        <Resource path="bedgraph/K27m3-demo_n1.bedgraph" type="bedgraph"/>
+        <Resource path="bedgraph/IgG-paper_n1.bedgraph" type="bedgraph"/>
+        <Resource path="bedgraph/IgG-demo_n1.bedgraph" type="bedgraph"/>
+        <Resource path="bedgraph/K4m3-demo_n1.bedgraph" type="bedgraph"/>
+    </Resources>
+    <Panel height="693" name="DataPanel" width="1901">
+        <Track attributeKey="IgG-paper_n1.bedgraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,204,0" fontSize="10" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/bedgraph/IgG-paper_n1.bedgraph" name="IgG-paper_n1.bedgraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="2357.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="CTCF-paper_n1.bedgraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,204,0" fontSize="10" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/bedgraph/CTCF-paper_n1.bedgraph" name="CTCF-paper_n1.bedgraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="7081.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="MACS_from-bedpe_CTCF-paper_n1.narrowPeak" clazz="org.broad.igv.track.FeatureTrack" color="255,0,102" colorScale="ContinuousColorScale;0.0;38.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/sample_peaks/MACS_from-bedpe_CTCF-paper_n1.narrowPeak" name="MACS_from-bedpe_CTCF-paper_n1.narrowPeak" visible="true"/>
+        <Track attributeKey="IgG-demo_n1.bedgraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,204,0" fontSize="10" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/bedgraph/IgG-demo_n1.bedgraph" name="IgG-demo_n1.bedgraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="754.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="K4m3-demo_n1.bedgraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,204,0" fontSize="10" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/bedgraph/K4m3-demo_n1.bedgraph" name="K4m3-demo_n1.bedgraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="716.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="MACS_from-bedpe_K4m3-demo_n1.narrowPeak" clazz="org.broad.igv.track.FeatureTrack" color="0,0,204" colorScale="ContinuousColorScale;0.0;112.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/sample_peaks/MACS_from-bedpe_K4m3-demo_n1.narrowPeak" name="MACS_from-bedpe_K4m3-demo_n1.narrowPeak" visible="true"/>
+        <Track attributeKey="K27m3-demo_n1.bedgraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,153,153" fontSize="10" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/bedgraph/K27m3-demo_n1.bedgraph" name="K27m3-demo_n1.bedgraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="202.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="MACS_from-bedpe_K27m3-demo_n1.narrowPeak" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;5.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/sample_peaks/MACS_from-bedpe_K27m3-demo_n1.narrowPeak" name="MACS_from-bedpe_K27m3-demo_n1.narrowPeak" visible="true"/>
+        <Track attributeKey="IgG-demo_n2.bedgraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,204,0" fontSize="10" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/bedgraph/IgG-demo_n2.bedgraph" name="IgG-demo_n2.bedgraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="2607.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="K4m3-demo_n2.bedgraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,204,0" fontSize="10" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/bedgraph/K4m3-demo_n2.bedgraph" name="K4m3-demo_n2.bedgraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="287.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="MACS_from-bedpe_K4m3-demo_n2.narrowPeak" clazz="org.broad.igv.track.FeatureTrack" color="0,0,204" colorScale="ContinuousColorScale;0.0;446.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/sample_peaks/MACS_from-bedpe_K4m3-demo_n2.narrowPeak" name="MACS_from-bedpe_K4m3-demo_n2.narrowPeak" visible="true"/>
+        <Track attributeKey="K27m3-demo_n2.bedgraph" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,204,0" fontSize="10" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/bedgraph/K27m3-demo_n2.bedgraph" name="K27m3-demo_n2.bedgraph" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="58.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="MACS_from-bedpe_K27m3-demo_n2.narrowPeak" clazz="org.broad.igv.track.FeatureTrack" color="0,153,153" colorScale="ContinuousColorScale;0.0;18.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="/home/ievarau/Documents/ievarau_github_repo/intro_to_regulation_workshop/cutntag_demo_data_run/sample_peaks/MACS_from-bedpe_K27m3-demo_n2.narrowPeak" name="MACS_from-bedpe_K27m3-demo_n2.narrowPeak" visible="true"/>
+    </Panel>
+    <Panel height="98" name="FeaturePanel" width="1901">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Gene" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;770.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" height="35" id="hg38_genes" name="Gene" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.8709273182957393"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
